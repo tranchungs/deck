@@ -22,9 +22,7 @@
 
 <template>
 	<div v-if="copiedCard">
-		<div class="section-wrapper">
-			<h3>Set time Notification</h3>	
-		</div>
+		<h3>Set time Notification</h3>
 		<div class="section-wrapper">
 			<div v-tooltip="t('deck', 'Notification date')" class="section-label icon-calendar-dark">
 				<span class="hidden-visually">{{ t('deck', 'Notification date') }}</span>
@@ -62,7 +60,7 @@ import {
 } from '@nextcloud/l10n'
 
 export default {
-	name: 'CardSidebarTabDetails',
+	name: 'CardSidebarNotification',
 	components: {
 		DatetimePicker,
 		Actions,
