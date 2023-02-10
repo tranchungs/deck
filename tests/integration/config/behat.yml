@@ -1,0 +1,12 @@
+default:
+  suites:
+    test:
+      paths:
+        - '%paths.base%/../features/'
+      contexts:
+        - ServerContext:
+            baseUrl:  http://localhost:8080/
+        - RequestContext
+        - BoardContext
+        - CommentContext
+        - SearchContext

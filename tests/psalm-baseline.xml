@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.7.3@38c452ae584467e939d55377aaf83b5a26f19dd1">
+  <file src="lib/Activity/ActivityManager.php">
+    <TypeDoesNotContainType occurrences="1">
+      <code>$message !== null</code>
+    </TypeDoesNotContainType>
+  </file>
+  <file src="lib/Activity/DeckProvider.php">
+    <InvalidScalarArgument occurrences="1">
+      <code>(int)$subjectParams['comment']</code>
+    </InvalidScalarArgument>
+  </file>
+  <file src="lib/Command/UserExport.php">
+    <ImplementedReturnTypeMismatch occurrences="1">
+      <code>void</code>
+    </ImplementedReturnTypeMismatch>
+    <UndefinedThisPropertyAssignment occurrences="2">
+      <code>$this-&gt;boardMapper</code>
+      <code>$this-&gt;stackMapper</code>
+    </UndefinedThisPropertyAssignment>
+    <UndefinedThisPropertyFetch occurrences="2">
+      <code>$this-&gt;boardMapper</code>
+      <code>$this-&gt;stackMapper</code>
+    </UndefinedThisPropertyFetch>
+  </file>
+  <file src="lib/Controller/BoardApiController.php">
+    <TypeDoesNotContainNull occurrences="2">
+      <code>$modified === null</code>
+      <code>$modified === null</code>
+    </TypeDoesNotContainNull>
+    <UndefinedClass occurrences="1">
+      <code>Util</code>
+    </UndefinedClass>
+    <UndefinedThisPropertyAssignment occurrences="1">
+      <code>$this-&gt;userId</code>
+    </UndefinedThisPropertyAssignment>
+    <UndefinedThisPropertyFetch occurrences="1">
+      <code>$this-&gt;userId</code>
+    </UndefinedThisPropertyFetch>
+  </file>
+  <file src="lib/Controller/BoardController.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>\OCP\Deck\DB\Board</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="lib/Controller/CommentsApiController.php">
+    <InvalidScalarArgument occurrences="6">
+      <code>$cardId</code>
+      <code>$cardId</code>
+      <code>$cardId</code>
+      <code>$commentId</code>
+      <code>$commentId</code>
+      <code>$parentId</code>
+    </InvalidScalarArgument>
+  </file>
+  <file src="lib/Controller/PageController.php">
+    <UndefinedClass occurrences="1">
+      <code>LoadSidebar</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Controller/StackApiController.php">
+    <RedundantCondition occurrences="1">
+      <code>$modified !== null</code>
+    </RedundantCondition>
+    <UndefinedClass occurrences="1">
+      <code>Util</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/DAV/Calendar.php">
+    <UndefinedClass occurrences="1">
+      <code>ExternalCalendar</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/DAV/CalendarObject.php">
+    <UndefinedClass occurrences="1">
+      <code>ICalendarObject</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/DAV/CalendarPlugin.php">
+    <UndefinedClass occurrences="1">
+      <code>ICalendarProvider</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/DAV/DeckCalendarBackend.php">
+    <UndefinedClass occurrences="1">
+      <code>NotFound</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Db/AclMapper.php">
+    <ParamNameMismatch occurrences="1">
+      <code>$aclId</code>
+    </ParamNameMismatch>
+  </file>
+  <file src="lib/Db/AssignmentMapper.php">
+    <ParamNameMismatch occurrences="1">
+      <code>$cardId</code>
+    </ParamNameMismatch>
+  </file>
+  <file src="lib/Db/AttachmentMapper.php">
+    <UndefinedVariable occurrences="1">
+      <code>$query</code>
+    </UndefinedVariable>
+  </file>
+  <file src="lib/Db/BoardMapper.php">
+    <ParamNameMismatch occurrences="1">
+      <code>$boardId</code>
+    </ParamNameMismatch>
+    <UndefinedClass occurrences="2">
+      <code>\OCA\Circles\Api\v1\Circles</code>
+      <code>\OCA\Circles\Api\v1\Circles</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Db/Card.php">
+    <UndefinedClass occurrences="2">
+      <code>VCalendar</code>
+      <code>VCalendar</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Db/CardMapper.php">
+    <InvalidArgument occurrences="1"/>
+    <InvalidScalarArgument occurrences="1">
+      <code>$entity-&gt;getId()</code>
+    </InvalidScalarArgument>
+    <ParamNameMismatch occurrences="1">
+      <code>$cardId</code>
+    </ParamNameMismatch>
+    <UndefinedInterfaceMethod occurrences="1">
+      <code>getUserIdGroups</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="lib/Db/ChangeHelper.php">
+    <UndefinedThisPropertyAssignment occurrences="3">
+      <code>$this-&gt;cache</code>
+      <code>$this-&gt;request</code>
+      <code>$this-&gt;userId</code>
+    </UndefinedThisPropertyAssignment>
+    <UndefinedThisPropertyFetch occurrences="6">
+      <code>$this-&gt;cache</code>
+      <code>$this-&gt;cache</code>
+      <code>$this-&gt;cache</code>
+      <code>$this-&gt;cache</code>
+      <code>$this-&gt;request</code>
+      <code>$this-&gt;userId</code>
+    </UndefinedThisPropertyFetch>
+  </file>
+  <file src="lib/Db/Circle.php">
+    <UndefinedClass occurrences="1">
+      <code>\OCA\Circles\Model\Circle</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="4">
+      <code>$this-&gt;object</code>
+      <code>$this-&gt;object</code>
+      <code>$this-&gt;object</code>
+      <code>\OCA\Circles\Model\Circle</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="lib/Db/LabelMapper.php">
+    <ParamNameMismatch occurrences="1">
+      <code>$labelId</code>
+    </ParamNameMismatch>
+  </file>
+  <file src="lib/Db/Stack.php">
+    <UndefinedClass occurrences="2">
+      <code>VCalendar</code>
+      <code>VCalendar</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Db/StackMapper.php">
+    <ParamNameMismatch occurrences="1">
+      <code>$stackId</code>
+    </ParamNameMismatch>
+  </file>
+  <file src="lib/Notification/Notifier.php">
+    <RedundantCast occurrences="4">
+      <code>(string) $l-&gt;t('%s has mentioned you in a comment on "%s".', [$dn, $params[0]])</code>
+      <code>(string) $l-&gt;t('The board "%s" has been shared with you by %s.', [$params[0], $dn])</code>
+      <code>(string) $l-&gt;t('The card "%s" on "%s" has been assigned to you by %s.', [$params[0], $params[1], $dn])</code>
+      <code>(string) $l-&gt;t('The card "%s" on "%s" has reached its due date.', $params)</code>
+    </RedundantCast>
+  </file>
+  <file src="lib/Provider/DeckProvider.php">
+    <InvalidPropertyAssignmentValue occurrences="1">
+      <code>[]</code>
+    </InvalidPropertyAssignmentValue>
+  </file>
+  <file src="lib/Service/AssignmentService.php">
+    <InvalidScalarArgument occurrences="2">
+      <code>$cardId</code>
+      <code>$cardId</code>
+    </InvalidScalarArgument>
+  </file>
+  <file src="lib/Service/AttachmentService.php">
+    <InvalidCatch occurrences="1"/>
+  </file>
+  <file src="lib/Service/BoardService.php">
+    <TooManyArguments occurrences="2">
+      <code>findAll</code>
+      <code>findAll</code>
+    </TooManyArguments>
+  </file>
+  <file src="lib/Service/CardService.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>\OCP\AppFramework\Db\</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="lib/Service/CirclesService.php">
+    <UndefinedClass occurrences="1">
+      <code>\OCA\Circles\Api\v1\Circles</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="1">
+      <code>$circlesManager</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="lib/Service/CommentService.php">
+    <UndefinedThisPropertyAssignment occurrences="2">
+      <code>$this-&gt;cardMapper</code>
+      <code>$this-&gt;permissionService</code>
+    </UndefinedThisPropertyAssignment>
+    <UndefinedThisPropertyFetch occurrences="8">
+      <code>$this-&gt;cardMapper</code>
+      <code>$this-&gt;cardMapper</code>
+      <code>$this-&gt;cardMapper</code>
+      <code>$this-&gt;cardMapper</code>
+      <code>$this-&gt;permissionService</code>
+      <code>$this-&gt;permissionService</code>
+      <code>$this-&gt;permissionService</code>
+      <code>$this-&gt;permissionService</code>
+    </UndefinedThisPropertyFetch>
+  </file>
+  <file src="lib/Service/DefaultBoardService.php">
+    <TypeDoesNotContainNull occurrences="6">
+      <code>$color === false || $color === null</code>
+      <code>$color === null</code>
+      <code>$title === false || $title === null</code>
+      <code>$title === null</code>
+      <code>$userId === false || $userId === null</code>
+      <code>$userId === null</code>
+    </TypeDoesNotContainNull>
+    <TypeDoesNotContainType occurrences="3">
+      <code>$color === false</code>
+      <code>$title === false</code>
+      <code>$userId === false</code>
+    </TypeDoesNotContainType>
+  </file>
+  <file src="lib/Service/FileService.php">
+    <MissingDependency occurrences="2">
+      <code>$this-&gt;rootFolder</code>
+      <code>IRootFolder</code>
+    </MissingDependency>
+    <RedundantCondition occurrences="2">
+      <code>is_resource($content)</code>
+      <code>is_resource($content)</code>
+    </RedundantCondition>
+  </file>
+  <file src="lib/Service/FilesAppService.php">
+    <MissingDependency occurrences="4">
+      <code>$this-&gt;rootFolder</code>
+      <code>$this-&gt;rootFolder</code>
+      <code>IRootFolder</code>
+      <code>ShareNotFound</code>
+    </MissingDependency>
+  </file>
+  <file src="lib/Service/PermissionService.php">
+    <UndefinedClass occurrences="2">
+      <code>Member</code>
+      <code>\OCA\Circles\Api\v1\Circles</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Service/StackService.php">
+    <UndefinedClass occurrences="1">
+      <code>BadRquestException</code>
+    </UndefinedClass>
+  </file>
+  <file src="lib/Sharing/DeckShareProvider.php">
+    <InvalidReturnStatement occurrences="1">
+      <code>$shares</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType occurrences="1">
+      <code>getSharesInFolder</code>
+    </InvalidReturnType>
+    <InvalidThrow occurrences="1">
+      <code>throw new GenericShareException('Already shared', $this-&gt;l-&gt;t('Path is already shared with this card'), 403);</code>
+    </InvalidThrow>
+    <MissingDependency occurrences="8">
+      <code>GenericShareException</code>
+      <code>GenericShareException</code>
+      <code>ShareNotFound</code>
+      <code>ShareNotFound</code>
+      <code>ShareNotFound</code>
+      <code>ShareNotFound</code>
+      <code>ShareNotFound</code>
+      <code>ShareNotFound</code>
+    </MissingDependency>
+  </file>
+  <file src="lib/Sharing/Listener.php">
+    <InvalidArgument occurrences="1">
+      <code>[self::class, 'listenPreShare']</code>
+    </InvalidArgument>
+  </file>
+</files>
